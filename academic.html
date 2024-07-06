@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACADEMIC</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    <div class="mainimage">
+        <div class="blur"><a href="schoolwork.html">
+            <button class="back">BACK</button>
+        </a>
+    </div>
+</div>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .mainimage{
+            background-image: url(ACADEMIC.webp);
+            background-size: cover;
+            width: 100%;
+            height: 500px;
+            backdrop-filter: blur(10px);
+        }
+        .blur{
+            width: 100%;
+            height: 500px;
+            background-color: rgba(1, 1, 1, 0.319);
+            backdrop-filter: blur(10px);
+        }
+        .back{
+            background-color: transparent;
+            width: 100px;
+            height: 50px;
+            font-size: larger;
+            margin-left: 90%;
+            margin-top: 1%;
+            border-width: 4px;
+            border-radius: 10px;
+            border-color: aqua;
+            border-style:solid;
+            transition: 0.2s;
+        }
+        .back:hover{
+            box-shadow: 0 0 10px 5px aqua;
+        }
+        .back:active{
+            background-color: aqua;
+        }
+    </style>
+</body>
+</html>
